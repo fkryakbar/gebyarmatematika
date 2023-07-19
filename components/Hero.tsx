@@ -41,28 +41,28 @@ export default function Hero() {
                     <div className="basis-1/2 mt-10">
                         <Splide aria-label="My Favorite Images" className="w-[80%] mx-auto drop-shadow-lg rounded-lg overflow-clip">
                             <SplideSlide>
-                                <Image src={Image3.src} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/3.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={Image4.src} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/4.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={Image5.src} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/5.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={Image6.src} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/6.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={Image7.src} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/7.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={Image8.src} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/8.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={Image9.src} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/9.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={Image10.src} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/10.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                         </Splide>
                     </div>
