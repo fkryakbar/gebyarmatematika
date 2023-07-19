@@ -43,7 +43,7 @@ export default function About() {
                         </div>
                         <div className="text-center mt-3 px-5 pb-5 ">
                             <p>
-                                <b>Gebyar Matematika</b> merupakan ajang kompetisi matematika yang diadakan oleh  Fakultas Keguruan dan Ilmu Pendidikan Universitas Lambung Mangkurat.
+                                <b>Gebyar Matematika</b> merupakan ajang kompetisi matematika yang diadakan oleh Himpunan Mahasiswa Pendidikan Matematika Fakultas Keguruan dan Ilmu Pendidikan Universitas Lambung Mangkurat.
                             </p>
                             <p className="mt-3">
                                 Tujuan dari penyelenggaraan <b>Gebyar Matematika</b> adalah untuk meningkatkan kemampuan akademik dan menggali potensi diri siswa di bidang matematika. Diharapkan, kegiatan ini dapat menjadi motivasi bagi siswa-siswi untuk lebih berprestasi dalam studi matematika dan merangsang minat mereka dalam mengeksplorasi dunia matematika secara lebih mendalam.

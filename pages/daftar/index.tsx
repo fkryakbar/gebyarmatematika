@@ -41,7 +41,7 @@ export default function Daftar() {
                     <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                 </div>
                 <div className="flex gap-5 mt-5 lg:flex-row flex-col">
-                    <div className="basis-1/2 p-5 rounded-lg bg-white drop-shadow-md hover:scale-105 transition-all hover:bg-blue-100">
+                    <div className="basis-1/2 p-5 rounded-lg bg-white drop-shadow-md cursor-pointer transition-all hover:bg-blue-100">
                         <div className="flex gap-3 justify-center mb-2">
                             <div className="w-5 h-5 rounded-full bg-blue-700"></div>
                             <div className="w-5 h-5 rounded-full bg-amber-400"></div>
@@ -54,7 +54,7 @@ export default function Daftar() {
                         </div>
                         <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"></div>
                     </div>
-                    <div className="basis-1/2 p-5 rounded-lg bg-white drop-shadow-md hover:scale-105 transition-all hover:bg-blue-100">
+                    <div className="basis-1/2 p-5 rounded-lg bg-white drop-shadow-md cursor-pointer transition-all hover:bg-blue-100">
                         <div className="flex gap-3 justify-center mb-2">
                             <div className="w-5 h-5 rounded-full bg-blue-700"></div>
                             <div className="w-5 h-5 rounded-full bg-amber-400"></div>
@@ -76,7 +76,7 @@ export default function Daftar() {
                     </h2>
                     <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                 </div>
-                <div className="lg:w-[50%] w-full mt-5 mx-auto p-5 rounded-lg bg-white drop-shadow-md hover:scale-105 transition-all hover:bg-blue-100">
+                <div className="lg:w-[50%] w-full mt-5 mx-auto p-5 rounded-lg bg-white drop-shadow-md cursor-pointer transition-all hover:bg-blue-100">
                     <div className="flex gap-3 justify-center mb-2">
                         <div className="w-5 h-5 rounded-full bg-blue-700"></div>
                         <div className="w-5 h-5 rounded-full bg-amber-400"></div>
@@ -118,7 +118,7 @@ export default function Daftar() {
                     </h2>
                     <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                 </div>
-                <div className="lg:w-[50%] w-full mt-5 mx-auto p-5 rounded-lg bg-white drop-shadow-md hover:scale-105 transition-all hover:bg-blue-100">
+                <div className="lg:w-[50%] w-full mt-5 mx-auto p-5 rounded-lg bg-white drop-shadow-md cursor-pointer transition-all hover:bg-blue-100">
                     <div className="flex gap-3 justify-center mb-2">
                         <div className="w-5 h-5 rounded-full bg-blue-700"></div>
                         <div className="w-5 h-5 rounded-full bg-amber-400"></div>
@@ -177,7 +177,7 @@ export default function Daftar() {
                     </h2>
                     <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                 </div>
-                <div className="lg:w-[50%] w-full mt-5 mx-auto p-5 rounded-lg bg-white drop-shadow-md hover:scale-105 transition-all hover:bg-blue-100">
+                <div className="lg:w-[50%] w-full mt-5 mx-auto p-5 rounded-lg bg-white drop-shadow-md cursor-pointer transition-all hover:bg-blue-100">
                     <div className="flex gap-3 justify-center mb-2">
                         <div className="w-5 h-5 rounded-full bg-blue-700"></div>
                         <div className="w-5 h-5 rounded-full bg-amber-400"></div>
