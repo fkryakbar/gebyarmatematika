@@ -1,4 +1,15 @@
+import About from "@/components/About";
+import Contact from "@/components/Contact";
+import Faq from "@/components/Faq";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import Illustration from "@/components/Illustration1";
+import Navbar from "@/components/Navbar";
+import Sponsors from "@/components/Sponsors";
+import Tutorial from "@/components/Tutorial";
 import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -6,12 +17,14 @@ export default function Home() {
       <Head>
         <title>Gebyar Matematika 2023</title>
       </Head>
-      <div className='flex items-center justify-center h-screen'>
-        <div className='text-center'>
-          <h1 className='text-3xl font-bold'>Coming Soon</h1>
-          <h1 className='text-base'>Gebyar Matematika 2023</h1>
-        </div>
-      </div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Faq />
+      <Tutorial />
+      <Sponsors />
+      <Contact />
+      <Footer />
     </>
   )
 }

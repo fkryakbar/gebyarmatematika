@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021.5 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="437.417mm" height="351.8mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 24659.61 19832.93"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil2 {fill:none}
+    .fil0 {fill:#E9F5FC}
+    .fil1 {fill:url(#id1)}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-0 0l24659.61 0 0 19832.93 -24659.61 0 0 -19832.93z"/>
+   </clipPath>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="-2001.59" y1="2471.24" x2="30680.9" y2="2471.24">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FED403"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#F18B0B"/>
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g id="_2781588116112">
+    <path class="fil0" d="M-4700.45 12660.15c0,0 7721.85,-5908.9 12489.27,-4498.82 4767.42,1410.08 5438.88,3290.18 8796.21,1477.22 3357.33,-1812.96 5371.73,-4633.13 9601.97,-2618.72 4230.24,2014.4 12153.54,3357.34 12153.54,3357.34l1074.34 11952.1 -50762.86 3223.04 6647.52 -12892.16z"/>
+    <path class="fil1" d="M-2001.59 -224.76c0,0 1635.79,3071.26 4072.79,2537.13 2437,-534.14 5007.53,-2003.02 8178.97,-400.6 3171.44,1602.41 4940.77,3872.52 7311,2804.24 2370.23,-1068.28 4540.16,4673.69 8212.35,3672.19 3672.19,-1001.51 4907.38,-10048.45 4907.38,-10048.45 0,0 -10415.66,-1936.24 -10716.12,-1902.86 -300.45,33.39 -16691.78,1435.5 -16691.78,1435.5l-5274.6 1902.86z"/>
+   </g>
+  </g>
+  <polygon class="fil2" points="-0,0 24659.61,0 24659.61,19832.93 -0,19832.93 "/>
+ </g>
+</svg>
