@@ -44,7 +44,7 @@ export default function Sponsors() {
                                 <div className="w-5 h-5 rounded-full bg-green-400"></div>
                             </div>
                         </div>
-                        <div className="mt-5 flex gap-3 flex-wrap">
+                        <div className="mt-5 flex gap-3 flex-wrap justify-center">
                             {
                                 sponsors.isLoading ? (<Loading />) : sponsors.data.data.map((item: any, key: number) => {
                                     return (

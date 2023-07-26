@@ -14,7 +14,7 @@ export default function Contact() {
                         <div className="rounded-full mx-auto w-[10%] h-1 bg-white mt-2"></div>
                     </div>
                     <div className="lg:flex gap-3 mt-5 items-center">
-                        <div className="basis-1/2">
+                        <div className="basis-1/2 flex justify-center">
                             <Image src={'/Internship-pana.svg'} alt="Illustration" width={450} height={450} />
                         </div>
                         <div className="basis-1/2">
