@@ -26,6 +26,7 @@ export default function Page({ data }: { data: { data: Array<any> } }) {
         <>
             <Head>
                 <title>Pengumuman Gebyar Matematika</title>
+                <meta name="description" content="Berikut merupakan pengumuman penting seputar Gebyar Matematika" />
             </Head>
             <Navbar />
             <section className="bg-[url('/liquid-cheese.svg')] bg-no-repeat bg-cover ">

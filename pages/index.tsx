@@ -28,6 +28,7 @@ export default function Home(props: any) {
     <>
       <Head>
         <title>Gebyar Matematika 2023</title>
+        <meta name="description" content="Gebyar Matematika merupakan ajang kompetisi matematika yang diadakan oleh Himpunan Mahasiswa Pendidikan Matematika Fakultas Keguruan dan Ilmu Pendidikan Universitas Lambung Mangkurat." />
       </Head>
       <Navbar />
       <Hero />

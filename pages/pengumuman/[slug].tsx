@@ -36,7 +36,8 @@ export default function Slug({ data }: { data: any }) {
 
     return <>
         <Head>
-            <title>Pengumuman Gebyar Matematika</title>
+            <title>{data.title} | Gebyar Matematika</title>
+            <meta name="description" content={`${data.description}`} />
         </Head>
         <Navbar />
         <section className="bg-[url('/liquid-cheese.svg')] bg-no-repeat bg-cover ">

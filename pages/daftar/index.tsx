@@ -9,6 +9,7 @@ export default function Daftar() {
         <>
             <Head>
                 <title>Daftar Gebyar Matematika</title>
+                <meta name="description" content="Gebyar Matematika merupakan ajang kompetisi matematika yang diadakan oleh Himpunan Mahasiswa Pendidikan Matematika Fakultas Keguruan dan Ilmu Pendidikan Universitas Lambung Mangkurat." />
             </Head>
             <Navbar />
             <section className="bg-[url('/liquid-cheese.svg')] bg-no-repeat bg-cover ">
