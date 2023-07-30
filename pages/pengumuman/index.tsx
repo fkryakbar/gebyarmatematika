@@ -4,6 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import { motion } from "framer-motion"
+
 export const getStaticProps = async () => {
     const res = await fetch(`${process.env.NEXT_PUBLIC_CMS_URL}/api/v1/collection/gm23/slug?paginate=10`, {
         headers: {
@@ -32,13 +34,21 @@ export default function Page({ data }: { data: { data: Array<any> } }) {
             <section className="bg-[url('/liquid-cheese.svg')] bg-no-repeat bg-cover ">
                 <div className='lg:w-[80%] w-full p-2 mx-auto pt-28'>
                     <div className="lg:flex gap-3 flex-wrap">
-                        <div className="basis-[48%] flex justify-center flex-col">
+                        <motion.div
+                            initial={{ opacity: 0, y: -50 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}
+                            className="basis-[48%] flex justify-center flex-col">
                             <h1 className='lg:text-7xl text-4xl text-center lg:text-left font-bold mt-2 text-white'>Pengumuman</h1>
                             <h4 className='font-semibold text-white text-center lg:text-left mt-5'>Berikut merupakan pengumuman penting seputar Gebyar Matematika</h4>
-                        </div>
-                        <div className="basis-[48%] flex justify-center w-full">
+                        </motion.div>
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5 }}
+                            className="basis-[48%] flex justify-center w-full">
                             <Image src={'/Reading list-rafiki.svg'} alt="info" width={400} height={400} className="lg:w-[400px] w-full" />
-                        </div>
+                        </motion.div>
                     </div>
                     <div className=" text-white w-full mt-10 mb-10">
                         <Link href={'#pengumuman'} scroll={false}>

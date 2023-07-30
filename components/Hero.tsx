@@ -1,24 +1,20 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import Image1 from '@/public/dokumentasi/1.jpg'
-import Image2 from '@/public/dokumentasi/2.jpg'
-import Image3 from '@/public/dokumentasi/3.jpg'
-import Image4 from '@/public/dokumentasi/4.jpg'
-import Image5 from '@/public/dokumentasi/5.jpg'
-import Image6 from '@/public/dokumentasi/6.jpg'
-import Image7 from '@/public/dokumentasi/7.jpg'
-import Image8 from '@/public/dokumentasi/8.jpg'
-import Image9 from '@/public/dokumentasi/9.jpg'
-import Image10 from '@/public/dokumentasi/10.jpg'
+import { motion } from "framer-motion"
 import '@splidejs/react-splide/css';
 export default function Hero() {
     return (<>
         <section className="bg-[url('/liquid-cheese.svg')] bg-no-repeat bg-cover lg:h-screen">
-            <div className='lg:w-[80%] w-full p-2 mx-auto lg:pt-42 pt-20'>
+            <div className='lg:w-[80%] w-full p-2 mx-auto lg:pt-44 pt-20'>
                 <div className="lg:flex flex-wrap">
-                    <div className="basis-1/2 flex flex-col justify-center">
-                        <div className="lg:text-left text-center">
+                    <motion.div
+                        initial={{ opacity: 0, y: -50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5 }}
+                        className="basis-1/2 flex flex-col justify-center">
+                        <div
+                            className="lg:text-left text-center">
                             <h1 className='lg:text-7xl text-5xl font-bold mt-2 text-white'>Gebyar Matematika 2023</h1>
                             <h5 className='font-semibold  text-white text-base mt-2'>Merangkai Deret Prestasi untuk Menciptakan Barisan Generasi Matematika yang Berdedikasi</h5>
                         </div>
@@ -37,8 +33,12 @@ export default function Hero() {
                                 </Link>
                             </div>
                         </div>
-                    </div>
-                    <div className="basis-1/2 mt-10">
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5 }}
+                        className="basis-1/2 mt-10">
                         <Splide aria-label="My Favorite Images" className="w-[80%] mx-auto drop-shadow-lg rounded-lg overflow-clip">
                             <SplideSlide>
                                 <Image src={'/dokumentasi/3.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
@@ -65,7 +65,7 @@ export default function Hero() {
                                 <Image src={'/dokumentasi/10.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                         </Splide>
-                    </div>
+                    </motion.div>
                 </div>
                 <div className=" text-white w-full lg:mt-20 mt-10">
                     <Link href={'/#tentang'} scroll={false}>

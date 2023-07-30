@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Head from "next/head";
 import Link from "next/link";
+import { motion } from "framer-motion"
 
 export default function Daftar() {
     return (
@@ -14,7 +15,11 @@ export default function Daftar() {
             <Navbar />
             <section className="bg-[url('/liquid-cheese.svg')] bg-no-repeat bg-cover ">
                 <div className='lg:w-[80%] w-full p-2 mx-auto lg:pt-32 pt-20'>
-                    <div className="flex flex-col justify-center">
+                    <motion.div
+                        initial={{ opacity: 0, y: -50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5 }}
+                        className="flex flex-col justify-center">
                         <div className="text-center">
                             <h1 className='lg:text-7xl text-5xl font-bold mt-2 text-white'>Pendaftaran Gebyar Matematika</h1>
                         </div>
@@ -23,8 +28,14 @@ export default function Daftar() {
                                 Buku Panduan Gebyar Matematika
                             </Link>
                         </div>
-                    </div>
-                    <h4 className='font-semibold text-white text-center mt-5'>Berikut merupakan syarat dan ketentuan pendaftaran</h4>
+                    </motion.div>
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5 }}
+                    >
+                        <h4 className='font-semibold text-white text-center mt-5'>Berikut merupakan syarat dan ketentuan pendaftaran</h4>
+                    </motion.div>
                     <div className=" text-white w-full mt-10 mb-10">
                         <Link href={'#jenis'} scroll={false}>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-10 h-10 animate-bounce mx-auto">
@@ -34,7 +45,11 @@ export default function Daftar() {
                     </div>
                 </div>
             </section>
-            <section className="lg:w-[80%] w-full p-2 mx-auto pt-10" id="jenis">
+            <motion.section
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className="lg:w-[80%] w-full p-2 mx-auto pt-10" id="jenis">
                 <div>
                     <h2 className="text-center text-[#005AAC] font-semibold text-2xl">
                         Jenis Lomba
@@ -69,7 +84,7 @@ export default function Daftar() {
                         <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                     </div>
                 </div>
-            </section>
+            </motion.section>
             <section className="lg:w-[80%] w-full p-2 mx-auto pt-10">
                 <div>
                     <h2 className="text-center text-[#005AAC] font-semibold text-2xl">
