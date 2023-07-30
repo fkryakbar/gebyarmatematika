@@ -54,7 +54,7 @@ export default function Faq() {
                                         <div className="flex-1 ml-4 z-10 font-medium">
                                             <div className="order-1 bg-white rounded-lg shadow-only transition-ease w-full px-6 py-4 drop-shadow">
                                                 <div className="flex justify-between items-center flex-wrap">
-                                                    <h3 className="font-bold text-[#005AAC] text-2xl">Semifinal CCM SMP</h3>
+                                                    <h3 className="font-bold text-[#005AAC] text-2xl">Semifinal CCM SD</h3>
                                                     <div className="flex gap-3">
                                                         <div className="w-5 h-5 rounded-full bg-blue-700"></div>
                                                         <div className="w-5 h-5 rounded-full bg-amber-400"></div>
@@ -224,31 +224,6 @@ export default function Faq() {
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 2</p>
                                         <p>Rp140.000</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="collapse bg-white rounded-lg mt-3">
-                                <input type="checkbox" />
-                                <div className="collapse-title text-xl font-medium">
-                                    <div className="flex justify-between items-center">
-                                        <h3 className="font-bold text-[#005AAC] text-2xl">
-                                            CCM SMP & SMA
-                                        </h3>
-                                        <div className="text-[#005AAC]">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-10 h-10">
-                                                <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="collapse-content">
-                                    <div className="mb-2">
-                                        <p className="font-semibold">Gelombang 1</p>
-                                        <p>Rp165.000</p>
-                                    </div>
-                                    <div className="mb-2">
-                                        <p className="font-semibold">Gelombang 2</p>
-                                        <p>Rp170.000</p>
                                     </div>
                                 </div>
                             </div>
