@@ -24,7 +24,7 @@ export default function Hero() {
                             </Link>
                             <div className="relative group">
                                 <div className="absolute -inset-1 bg-gradient-to-br from-amber-600 to-amber-300 rounded-full blur group-hover:-inset-2 transition-all" />
-                                <Link href="#">
+                                <Link target="_blank" href="https://youtu.be/q7U0DTmwY8g">
                                     <button className="relative p-2 rounded-full bg-amber-400 text-white w-16 h-16 flex justify-center items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                                             <path fillRule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clipRule="evenodd" />
