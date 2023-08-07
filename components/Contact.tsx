@@ -89,7 +89,7 @@ export default function Contact() {
                                             Tanah Laut : Heni Siti Angreini 083142246013 (WA, SMS/Telp)
                                         </li>
                                         <li>
-                                            Tanah Bumbu : Atika Puspita Sari 087840401155 (WA, SMS/Telp)
+                                            Tanah Bumbu : Dian Rizka Hakiki 081649330502 (WA, SMS/Telp)
                                         </li>
                                         <li>
                                             Kotabaru : Irfan Anas Wahyudi 083140193103 (WA, SMS/Telp)
