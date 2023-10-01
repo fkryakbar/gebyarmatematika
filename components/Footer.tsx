@@ -9,7 +9,7 @@ export default function Footer() {
                         Copyright © {new Date().getFullYear()}. All Rights Reserved By  <Link href={'https://himaptika.ninepmx.my.id'} className="underline" target="_blank"> HIMAPTIKA FKIP ULM</Link>
                     </p>
                     <p className="text-white text-xs">
-                        Developed and Maintained by <Link href={'https://ninepmx.my.id'} className="underline" target="_blank">ninepmx</Link>
+                        <Link href={'https://ninepmx.my.id'} className="underline" target="_blank">Developer</Link>
                     </p>
                 </div>
             </div>
