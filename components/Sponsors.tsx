@@ -49,7 +49,7 @@ export default function Sponsors() {
                                 sponsors.isLoading ? (<Loading />) : sponsors.data.data.map((item: any, key: number) => {
                                     return (
                                         <div className='w-20' key={key}>
-                                            <Image width={100} height={100} src={`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/download/${item.item_id}`} alt={`${item.name}`} />
+                                            <img width={100} height={100} src={`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/download/${item.item_id}`} alt={`${item.name}`} />
                                         </div>
                                     )
 
@@ -76,7 +76,7 @@ export default function Sponsors() {
                                 mediaPartners.isLoading ? (<Loading />) : mediaPartners.data.data.map((item: any, key: number) => {
                                     return (
                                         <div className='w-20' key={key}>
-                                            <Image width={100} height={100} src={`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/download/${item.item_id}`} alt={`${item.name}`} />
+                                            <img width={100} height={100} src={`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/download/${item.item_id}`} alt={`${item.name}`} />
                                         </div>
                                     )
 
