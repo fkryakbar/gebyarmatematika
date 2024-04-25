@@ -7,7 +7,14 @@ const fetcher = (url: string) => fetch(url, {
         'Accept': 'application/json',
         'public-key': `${process.env.NEXT_PUBLIC_ETHINGS_TOKEN}`
     }
-}).then(r => r.json())
+}).then(r => {
+
+    if (r.status == 404) {
+        throw new Error('A 400 error occurred while fetching the data.');
+    }
+
+    return r.json()
+})
 
 const Loading = () => {
     return (
@@ -25,6 +32,7 @@ const Loading = () => {
 export default function Sponsors() {
     const sponsors = useSWRImmutable(`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/view/TiFe-1gE-SVa`, fetcher);
     const mediaPartners = useSWRImmutable(`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/view/QzTr-eOb-jCl`, fetcher);
+
 
     return (
         <>
@@ -46,14 +54,13 @@ export default function Sponsors() {
                         </div>
                         <div className="mt-5 flex gap-3 flex-wrap justify-center">
                             {
-                                sponsors.isLoading ? (<Loading />) : sponsors.data.data.map((item: any, key: number) => {
+                                sponsors.isLoading ? (<Loading />) : !sponsors.error ? sponsors.data.data.map((item: any, key: number) => {
                                     return (
                                         <div className='w-20' key={key}>
                                             <img width={100} height={100} src={`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/download/${item.item_id}`} alt={`${item.name}`} />
                                         </div>
                                     )
-
-                                })
+                                }) : null
                             }
                         </div>
                     </div>
@@ -73,14 +80,14 @@ export default function Sponsors() {
                         </div>
                         <div className="mt-5 flex gap-3 flex-wrap justify-center">
                             {
-                                mediaPartners.isLoading ? (<Loading />) : mediaPartners.data.data.map((item: any, key: number) => {
+                                mediaPartners.isLoading ? (<Loading />) : !sponsors.error ? sponsors.data.data.map((item: any, key: number) => {
                                     return (
                                         <div className='w-20' key={key}>
                                             <img width={100} height={100} src={`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/download/${item.item_id}`} alt={`${item.name}`} />
                                         </div>
                                     )
 
-                                })
+                                }) : null
                             }
                         </div>
                     </div>
