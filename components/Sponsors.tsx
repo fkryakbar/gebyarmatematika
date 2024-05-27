@@ -53,7 +53,7 @@ export default function Sponsors() {
                             </div>
                         </div>
                         <div className="mt-5 flex gap-3 flex-wrap justify-center">
-                            {
+                            {/* {
                                 sponsors.isLoading ? (<Loading />) : !sponsors.error ? sponsors.data.data.map((item: any, key: number) => {
                                     return (
                                         <div className='w-20' key={key}>
@@ -61,7 +61,7 @@ export default function Sponsors() {
                                         </div>
                                     )
                                 }) : null
-                            }
+                            } */}
                         </div>
                     </div>
                     <div className="basis-1/2 bg-white drop-shadow rounded-lg p-5 lg:mt-0 mt-5">
@@ -79,7 +79,7 @@ export default function Sponsors() {
                             </div>
                         </div>
                         <div className="mt-5 flex gap-3 flex-wrap justify-center">
-                            {
+                            {/* {
                                 mediaPartners.isLoading ? (<Loading />) : !sponsors.error ? sponsors.data.data.map((item: any, key: number) => {
                                     return (
                                         <div className='w-20' key={key}>
@@ -88,7 +88,7 @@ export default function Sponsors() {
                                     )
 
                                 }) : null
-                            }
+                            } */}
                         </div>
                     </div>
                 </div>
