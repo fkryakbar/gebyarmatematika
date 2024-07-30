@@ -9,7 +9,7 @@ export default function About() {
                 <div className="lg:w-[80%] w-full p-2 mx-auto mt-10">
                     <div>
                         <h2 className="text-center text-[#005AAC] font-semibold text-4xl">
-                            Throw Back Gebyar Matematika 2022
+                            Throw Back Gebyar Matematika 2023
                         </h2>
                         <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                     </div>

@@ -29,7 +29,7 @@ export default function Contact() {
                                     <h3 className="font-bold text-[#005AAC] text-2xl">
                                         Kuis Matematika
                                     </h3>
-                                    <p className="font-bold">087877968126 (Isnani Maulida)</p>
+                                    <p className="font-bold">0895336502457 (Muhammad Nasrullah)</p>
 
                                 </div>
                             </div>
@@ -44,7 +44,7 @@ export default function Contact() {
                                     <h3 className="font-bold text-[#005AAC] text-2xl">
                                         Cerdas Cermat Matematika
                                     </h3>
-                                    <p className="font-bold">089685158040 (Muamar Nasrullah Jayatri)</p>
+                                    <p className="font-bold">089637321925 (Rossana Isnayni)</p>
 
                                 </div>
                             </div>
@@ -65,43 +65,43 @@ export default function Contact() {
                                 <div className="collapse-content">
                                     <ul className="list-decimal p-5">
                                         <li>
-                                            Banjarmasin : Nor Azizah 088245509582 (WA, SMS/Telp)
+                                            Nisrina Clarissa Sedar(085248692787)
                                         </li>
                                         <li>
-                                            Banjarbaru : Venny Damayanti Tony Putri 0878-4133-9635 (WA, SMS/Telp)
+                                            Banjarbaru : Azka Amalia (083840454983)
                                         </li>
                                         <li>
-                                            Banjar : Halimah 081250138177 (WA, SMS/Telp)
+                                            Banjar : Dermawati Feronika Purba (+6281345210381)
                                         </li>
                                         <li>
-                                            Tapin & HSS : Indah Permata 083110401418 (WA, SMS/Telp)
+                                            Tapin / HSS : Siti Nadya Rahma (085245107942)
                                         </li>
                                         <li>
-                                            Balangan & HST : Nadia Hafsari 083141676726 (WA, SMS/Telp)
+                                            Balangan / HST : Mahfuzhatur Rahmi (082350781753)
                                         </li>
                                         <li>
-                                            HSU : Miseran 085251926228 (WA, SMS/Telp)
+                                            HSU / Amuntai : Erfina (082149986813)
                                         </li>
                                         <li>
-                                            Tabalong : Shafwati 087840624652 (WA, SMS/Telp)
+                                            Tabalong : Aufa Nawallia (082155510879)
                                         </li>
                                         <li>
-                                            Tanah Laut : Heni Siti Angreini 083142246013 (WA, SMS/Telp)
+                                            Tanah Laut : Wardah Nareswari (085754084821)
                                         </li>
                                         <li>
-                                            Tanah Bumbu : Dian Rizka Hakiki 081649330502 (WA, SMS/Telp)
+                                            Tanah Bumbu : Halimatus Sa’diah (082298437841)
                                         </li>
                                         <li>
-                                            Kotabaru : Irfan Anas Wahyudi 083140193103 (WA, SMS/Telp)
+                                            Kotabaru : Muhammad Abdurrahman ( 081258415633 )
                                         </li>
                                         <li>
-                                            Barito Kuala : Devina Putri Maharani 081521791395 (WA, SMS/Telp)
+                                            Barito Kuala : Muhammad Radith (083155701026)
                                         </li>
                                         <li>
-                                            Palangkaraya : Noorhikmah Maulina 087812712455 (WA, SMS/Telp)
+                                            Palangkaraya : Fadiyah Septi Alfiyahni (081324691688)
                                         </li>
                                         <li>
-                                            Sampit : Anisa Nabilah 085705089526 (WA, SMS/Telp)
+                                            Sampit : Dwi Cahyani Mutmainah (+62 896-5372-0236)
                                         </li>
                                     </ul>
 

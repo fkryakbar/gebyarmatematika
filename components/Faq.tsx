@@ -2,7 +2,7 @@ export default function Faq() {
     return (
         <>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1677D2" fillOpacity="1" d="M0,224L48,202.7C96,181,192,139,288,122.7C384,107,480,117,576,133.3C672,149,768,171,864,192C960,213,1056,235,1152,250.7C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
-            <section className=" bg-[#1677D2]" id="faq">
+            <section className=" bg-[#1677D2] mt-[-1px]" id="faq">
                 <div className="lg:w-[75%] w-full p-2 mx-auto">
                     <div className="lg:flex gap-5">
                         <div className="relative basis-1/2 mb-4">
@@ -39,7 +39,8 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">30 September 2023</p>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">05 Oktober 2024
+                                                </p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
                                             </div>
@@ -61,7 +62,8 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">30 Oktober 2023</p>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">04 Novermber 2024
+                                                </p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
                                             </div>
@@ -83,7 +85,8 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">31 Oktober 2023</p>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">05 Novermber 2024
+                                                </p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
                                             </div>
@@ -105,7 +108,7 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">1 November 2023</p>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">06 November 2024</p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
                                             </div>
@@ -127,7 +130,7 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">2 November 2023</p>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">07 November 2024</p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
                                             </div>
@@ -142,7 +145,8 @@ export default function Faq() {
                                         <div className="flex-1 ml-4 z-10 font-medium">
                                             <div className="order-1 bg-white rounded-lg shadow-only transition-ease w-full px-6 py-4 drop-shadow">
                                                 <div className="flex justify-between items-center flex-wrap">
-                                                    <h3 className="font-bold text-[#005AAC] text-2xl">Final Kuis Matematika</h3>
+                                                    <h3 className="font-bold text-[#005AAC] text-2xl">08 November 2024
+                                                    </h3>
                                                     <div className="flex gap-3">
                                                         <div className="w-5 h-5 rounded-full bg-blue-700"></div>
                                                         <div className="w-5 h-5 rounded-full bg-amber-400"></div>
@@ -194,11 +198,12 @@ export default function Faq() {
                                 <div className="collapse-content">
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 1</p>
-                                        <p>7 Agustus - 18 Agustus 2023</p>
+                                        <p>1 Agustus - 17 Agustus 2024
+                                        </p>
                                     </div>
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 2</p>
-                                        <p>19 Agustus - 30 Agustus 2023</p>
+                                        <p>18 Agustus - 31 Agustus 2024</p>
                                     </div>
                                 </div>
                             </div>
@@ -219,7 +224,7 @@ export default function Faq() {
                                 <div className="collapse-content">
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 1</p>
-                                        <p>Rp135.000</p>
+                                        <p>Rp 130.000</p>
                                     </div>
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 2</p>
@@ -244,7 +249,7 @@ export default function Faq() {
                                 <div className="collapse-content">
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 1</p>
-                                        <p>Rp165.000</p>
+                                        <p>Rp160.000</p>
                                     </div>
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 2</p>
@@ -273,7 +278,7 @@ export default function Faq() {
                                     </div>
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 2</p>
-                                        <p>Rp90.000</p>
+                                        <p>Rp95.000</p>
                                     </div>
                                 </div>
                             </div>
@@ -294,7 +299,7 @@ export default function Faq() {
                                 <div className="collapse-content">
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 1</p>
-                                        <p>Rp70.000</p>
+                                        <p>Rp65.000</p>
                                     </div>
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 2</p>

@@ -15,7 +15,7 @@ export default function Hero() {
                         className="basis-1/2 flex flex-col justify-center">
                         <div
                             className="lg:text-left text-center">
-                            <h1 className='lg:text-7xl text-5xl font-bold mt-2 text-white'>Gebyar Matematika 2023</h1>
+                            <h1 className='lg:text-7xl text-5xl font-bold mt-2 text-white'>Gebyar Matematika 2024</h1>
                             <h5 className='font-semibold  text-white text-base mt-2'>Merangkai Deret Prestasi untuk Menciptakan Barisan Generasi Matematika yang Berdedikasi</h5>
                         </div>
                         <div className="flex gap-6 mt-5 mx-auto lg:mx-0">

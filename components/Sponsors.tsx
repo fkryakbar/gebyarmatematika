@@ -30,8 +30,8 @@ const Loading = () => {
 }
 
 export default function Sponsors() {
-    const sponsors = useSWRImmutable(`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/view/TiFe-1gE-SVa`, fetcher);
-    const mediaPartners = useSWRImmutable(`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/view/QzTr-eOb-jCl`, fetcher);
+    const sponsors = useSWRImmutable(`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/view/o8GI-7ef-bwH`, fetcher);
+    const mediaPartners = useSWRImmutable(`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/view/amom-WKQ-W62`, fetcher);
 
 
     return (
@@ -53,7 +53,7 @@ export default function Sponsors() {
                             </div>
                         </div>
                         <div className="mt-5 flex gap-3 flex-wrap justify-center">
-                            {/* {
+                            {
                                 sponsors.isLoading ? (<Loading />) : !sponsors.error ? sponsors.data.data.map((item: any, key: number) => {
                                     return (
                                         <div className='w-20' key={key}>
@@ -61,7 +61,7 @@ export default function Sponsors() {
                                         </div>
                                     )
                                 }) : null
-                            } */}
+                            }
                         </div>
                     </div>
                     <div className="basis-1/2 bg-white drop-shadow rounded-lg p-5 lg:mt-0 mt-5">
@@ -79,8 +79,8 @@ export default function Sponsors() {
                             </div>
                         </div>
                         <div className="mt-5 flex gap-3 flex-wrap justify-center">
-                            {/* {
-                                mediaPartners.isLoading ? (<Loading />) : !sponsors.error ? sponsors.data.data.map((item: any, key: number) => {
+                            {
+                                mediaPartners.isLoading ? (<Loading />) : !sponsors.error ? mediaPartners.data.data.map((item: any, key: number) => {
                                     return (
                                         <div className='w-20' key={key}>
                                             <img width={100} height={100} src={`${process.env.NEXT_PUBLIC_ETHINGS_API}/api/public/download/${item.item_id}`} alt={`${item.name}`} />
@@ -88,7 +88,7 @@ export default function Sponsors() {
                                     )
 
                                 }) : null
-                            } */}
+                            }
                         </div>
                     </div>
                 </div>
