@@ -13,7 +13,7 @@ export default function Tutorial() {
                     </p>
                     <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                 </div>
-                <Link href={''} className="relative" target="_blank">
+                <Link href={'https://www.instagram.com/reel/Cv1IdhRtotM/?igsh=MWZ0bTZhMGJsMDB1ag=='} className="relative" target="_blank">
                     <div className="absolute right-[50%] top-[50px] translate-x-[50%]">
                         <div className="relative group w-fit">
                             <div className="absolute -inset-1 bg-gradient-to-br from-amber-600 to-amber-300 rounded-full blur group-hover:-inset-2 transition-all" />
