@@ -145,7 +145,7 @@ export default function Faq() {
                                         <div className="flex-1 ml-4 z-10 font-medium">
                                             <div className="order-1 bg-white rounded-lg shadow-only transition-ease w-full px-6 py-4 drop-shadow">
                                                 <div className="flex justify-between items-center flex-wrap">
-                                                    <h3 className="font-bold text-[#005AAC] text-2xl">08 November 2024
+                                                    <h3 className="font-bold text-[#005AAC] text-2xl">Final Kuis Matematika
                                                     </h3>
                                                     <div className="flex gap-3">
                                                         <div className="w-5 h-5 rounded-full bg-blue-700"></div>
@@ -153,7 +153,7 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">3 November 2023</p>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">08 November 2024</p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
                                             </div>
