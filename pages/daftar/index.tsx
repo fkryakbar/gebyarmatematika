@@ -66,7 +66,7 @@ export default function Daftar() {
                         <h4 className="text-center text-[#005AAC] font-semibold text-xl">Cerdas Cermat Matematika</h4>
                         <p className="text-center text-sm font-semibold">Beregu 3 Orang</p>
                         <div className="flex justify-center my-2">
-                            <Link href={'http://bit.ly/Pendaftaran-CerdasCermatMatematika_GM2023'} target="_blank" className="btn btn-sm bg-green-400 text-white hover:bg-green-800">Daftar CCM</Link>
+                            <Link href={'https://bit.ly/Pendaftaran-CerdasCermatMatematika_GM2024'} target="_blank" className="btn btn-sm bg-green-400 text-white hover:bg-green-800">Daftar CCM</Link>
                         </div>
                         <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"></div>
                     </div>
@@ -79,7 +79,7 @@ export default function Daftar() {
                         <h4 className="text-center text-[#005AAC] font-semibold text-xl">Kuis Matematika</h4>
                         <p className="text-center text-sm font-semibold">Individu</p>
                         <div className="flex justify-center my-2">
-                            <Link href={'http://bit.ly/Pendaftaran-KuisMatematika_GM2023'} target="_blank" className="btn btn-sm bg-amber-400 text-white hover:bg-amber-800">Daftar KM</Link>
+                            <Link href={'https://bit.ly/Pendaftaran-KuisMatematika_GM2024'} target="_blank" className="btn btn-sm bg-amber-400 text-white hover:bg-amber-800">Daftar KM</Link>
                         </div>
                         <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                     </div>

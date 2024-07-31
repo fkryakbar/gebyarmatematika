@@ -16,7 +16,7 @@ export default function Hero() {
                         <div
                             className="lg:text-left text-center">
                             <h1 className='lg:text-7xl text-5xl font-bold mt-2 text-white'>Gebyar Matematika 2024</h1>
-                            <h5 className='font-semibold  text-white text-base mt-2'>Merangkai Deret Prestasi untuk Menciptakan Barisan Generasi Matematika yang Berdedikasi</h5>
+                            <h5 className='font-semibold  text-white text-base mt-2'>SEMESTA: Semarakkan Ekspresi Matematika, Satukan Energi Menuju Prestasi Tak Terhingga</h5>
                         </div>
                         <div className="flex gap-6 mt-5 mx-auto lg:mx-0">
                             <Link href={'/daftar'} className="bg-[#11b6e6] p-2 text-white rounded-lg font-bold text-xl flex items-center hover:bg-blue-900 transition-all active:scale-105 drop-shadow">
@@ -24,7 +24,7 @@ export default function Hero() {
                             </Link>
                             <div className="relative group">
                                 <div className="absolute -inset-1 bg-gradient-to-br from-amber-600 to-amber-300 rounded-full blur group-hover:-inset-2 transition-all" />
-                                <Link target="_blank" href="https://youtu.be/q7U0DTmwY8g">
+                                <Link target="_blank" href="https://www.instagram.com/p/C9edFQIPdRW/?igsh=MTdpamZqNXgycWd1Yg==">
                                     <button className="relative p-2 rounded-full bg-amber-400 text-white w-16 h-16 flex justify-center items-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
                                             <path fillRule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clipRule="evenodd" />
