@@ -24,7 +24,7 @@ export default function Daftar() {
                             <h1 className='lg:text-7xl text-5xl font-bold mt-2 text-white'>Pendaftaran Gebyar Matematika</h1>
                         </div>
                         <div className="flex gap-6 mt-5 mx-auto">
-                            <Link href={'https://bit.ly/BukuPedomanGM2023'} target="_blank" className="bg-[#11b6e6] p-2 text-white rounded-lg font-bold text-xl flex items-center hover:bg-blue-900 transition-all active:scale-105 drop-shadow text-center">
+                            <Link href={'https://bit.ly/BukuPedomanGM2024'} target="_blank" className="bg-[#11b6e6] p-2 text-white rounded-lg font-bold text-xl flex items-center hover:bg-blue-900 transition-all active:scale-105 drop-shadow text-center">
                                 Buku Panduan Gebyar Matematika
                             </Link>
                         </div>
