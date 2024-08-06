@@ -160,7 +160,7 @@ export default function Daftar() {
                                             No. Rekening
                                         </td>
                                         <td>
-                                            : 1590006361744
+                                            : 310018994486
                                         </td>
                                     </tr>
                                     <tr>
@@ -168,7 +168,7 @@ export default function Daftar() {
                                             Atas Nama
                                         </td>
                                         <td>
-                                            : NUR ANNISA EPENDY
+                                            : Heni Siti Angreini
                                         </td>
                                     </tr>
                                 </tbody>
