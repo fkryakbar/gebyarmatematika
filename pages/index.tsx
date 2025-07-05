@@ -27,7 +27,7 @@ export default function Home(props: any) {
   return (
     <>
       <Head>
-        <title>Gebyar Matematika 2024</title>
+        <title>Gebyar Matematika 2025</title>
         <meta name="description" content="Gebyar Matematika merupakan ajang kompetisi matematika yang diadakan oleh Himpunan Mahasiswa Pendidikan Matematika Fakultas Keguruan dan Ilmu Pendidikan Universitas Lambung Mangkurat." />
       </Head>
       <Navbar />

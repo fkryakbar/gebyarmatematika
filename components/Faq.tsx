@@ -32,6 +32,75 @@ export default function Faq() {
                                         <div className="flex-1 ml-4 z-10 font-medium">
                                             <div className="order-1 bg-white rounded-lg shadow-only transition-ease w-full px-6 py-4 drop-shadow">
                                                 <div className="flex justify-between items-center flex-wrap">
+                                                    <h3 className="font-bold text-[#005AAC] text-2xl">Pengumpulan Karya Esai</h3>
+                                                    <div className="flex gap-3">
+                                                        <div className="w-5 h-5 rounded-full bg-blue-700"></div>
+                                                        <div className="w-5 h-5 rounded-full bg-amber-400"></div>
+                                                        <div className="w-5 h-5 rounded-full bg-green-400"></div>
+                                                    </div>
+                                                </div>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">25 - 31 Juli 2025
+                                                </p>
+                                                {/* <hr />
+                        <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="mb-5 ">
+                                    <div className="flex group items-center ">
+                                        <div className="bg-[#005AAC] group-hover:bg-blue-900 z-10 rounded-full border-4 border-[#11b6e6] h-5 w-5">
+                                            <div className="bg-[#11b6e6] h-1 w-6 items-center  ml-4 mt-1"></div>
+                                        </div>
+                                        <div className="flex-1 ml-4 z-10 font-medium">
+                                            <div className="order-1 bg-white rounded-lg shadow-only transition-ease w-full px-6 py-4 drop-shadow">
+                                                <div className="flex justify-between items-center flex-wrap">
+                                                    <h3 className="font-bold text-[#005AAC] text-2xl">Penilaian dan Penjurian Esai</h3>
+                                                    <div className="flex gap-3">
+                                                        <div className="w-5 h-5 rounded-full bg-blue-700"></div>
+                                                        <div className="w-5 h-5 rounded-full bg-amber-400"></div>
+                                                        <div className="w-5 h-5 rounded-full bg-green-400"></div>
+                                                    </div>
+                                                </div>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">07 - 23 Agustus 2025
+                                                </p>
+                                                {/* <hr />
+                        <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="mb-5 ">
+                                    <div className="flex group items-center ">
+                                        <div className="bg-[#005AAC] group-hover:bg-blue-900 z-10 rounded-full border-4 border-[#11b6e6] h-5 w-5">
+                                            <div className="bg-[#11b6e6] h-1 w-6 items-center  ml-4 mt-1"></div>
+                                        </div>
+                                        <div className="flex-1 ml-4 z-10 font-medium">
+                                            <div className="order-1 bg-white rounded-lg shadow-only transition-ease w-full px-6 py-4 drop-shadow">
+                                                <div className="flex justify-between items-center flex-wrap">
+                                                    <h3 className="font-bold text-[#005AAC] text-2xl">Pengumuman Esai</h3>
+                                                    <div className="flex gap-3">
+                                                        <div className="w-5 h-5 rounded-full bg-blue-700"></div>
+                                                        <div className="w-5 h-5 rounded-full bg-amber-400"></div>
+                                                        <div className="w-5 h-5 rounded-full bg-green-400"></div>
+                                                    </div>
+                                                </div>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">24 Agustus 2025
+                                                </p>
+                                                {/* <hr />
+                        <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li className="mb-5 ">
+                                    <div className="flex group items-center ">
+                                        <div className="bg-[#005AAC] group-hover:bg-blue-900 z-10 rounded-full border-4 border-[#11b6e6] h-5 w-5">
+                                            <div className="bg-[#11b6e6] h-1 w-6 items-center  ml-4 mt-1"></div>
+                                        </div>
+                                        <div className="flex-1 ml-4 z-10 font-medium">
+                                            <div className="order-1 bg-white rounded-lg shadow-only transition-ease w-full px-6 py-4 drop-shadow">
+                                                <div className="flex justify-between items-center flex-wrap">
                                                     <h3 className="font-bold text-[#005AAC] text-2xl">Penyisihan</h3>
                                                     <div className="flex gap-3">
                                                         <div className="w-5 h-5 rounded-full bg-blue-700"></div>
@@ -39,7 +108,7 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">05 Oktober 2024
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">13 September 2025
                                                 </p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
@@ -62,7 +131,7 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">04 Novermber 2024
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">13 Oktober 2025
                                                 </p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
@@ -85,7 +154,7 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">05 Novermber 2024
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">14 Oktober 2025
                                                 </p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
@@ -108,7 +177,7 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">06 November 2024</p>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">15 Oktober 2025</p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
                                             </div>
@@ -130,7 +199,7 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">07 November 2024</p>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">16 Oktober 2025</p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
                                             </div>
@@ -153,7 +222,7 @@ export default function Faq() {
                                                         <div className="w-5 h-5 rounded-full bg-green-400"></div>
                                                     </div>
                                                 </div>
-                                                <p className="pb-4 mt-2 text-sm text-gray-800">08 November 2024</p>
+                                                <p className="pb-4 mt-2 text-sm text-gray-800">17 Oktober 2025</p>
                                                 {/* <hr />
                         <p className="text-sm font-medium leading-snug tracking-wide text-gray-800 text-opacity-100">The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.</p> */}
                                             </div>
@@ -197,13 +266,17 @@ export default function Faq() {
                                 </div>
                                 <div className="collapse-content">
                                     <div className="mb-2">
-                                        <p className="font-semibold">Gelombang 1</p>
-                                        <p>1 Agustus - 17 Agustus 2024
+                                        <p className="font-semibold">Gelombang 1 (Kuis dan CCM)</p>
+                                        <p>1 Juli - 17 Juli 2025
                                         </p>
                                     </div>
                                     <div className="mb-2">
-                                        <p className="font-semibold">Gelombang 2</p>
-                                        <p>18 Agustus - 31 Agustus 2024</p>
+                                        <p className="font-semibold">Gelombang 2 (Kuis dan CCM)</p>
+                                        <p>18 Juli - 31 Juli 2025</p>
+                                    </div>
+                                    <div className="mb-2">
+                                        <p className="font-semibold">Pendaftaran Esai</p>
+                                        <p>01 - 24 Juli 2025</p>
                                     </div>
                                 </div>
                             </div>
@@ -304,6 +377,27 @@ export default function Faq() {
                                     <div className="mb-2">
                                         <p className="font-semibold">Gelombang 2</p>
                                         <p>Rp75.000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="collapse bg-white rounded-lg mt-3">
+                                <input type="checkbox" />
+                                <div className="collapse-title text-xl font-medium">
+                                    <div className="flex justify-between items-center">
+                                        <h3 className="font-bold text-[#005AAC] text-2xl">
+                                            Esai
+                                        </h3>
+                                        <div className="text-[#005AAC]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-10 h-10">
+                                                <path fillRule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clipRule="evenodd" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="collapse-content">
+                                    <div className="mb-2">
+                                        <p className="font-semibold">Biaya Pendaftaran Esai</p>
+                                        <p>Rp50.000</p>
                                     </div>
                                 </div>
                             </div>

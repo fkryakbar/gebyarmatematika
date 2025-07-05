@@ -9,11 +9,11 @@ export default function About() {
                 <div className="lg:w-[80%] w-full p-2 mx-auto mt-10">
                     <div>
                         <h2 className="text-center text-[#005AAC] font-semibold text-4xl">
-                            Throw Back Gebyar Matematika 2023
+                            Throw Back Gebyar Matematika 2024
                         </h2>
                         <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                     </div>
-                    <Link href={'https://youtu.be/1W5l0fZg2xg?si=M-HPCrJSag4UqlKn'} className="relative" target="_blank">
+                    <Link href={'https://youtu.be/qDt1LRZ76CY?si=r3pfob2HRbN65xGr'} className="relative" target="_blank">
                         <div className="absolute right-[50%] top-[50px] translate-x-[50%]">
                             <div className="relative group w-fit">
                                 <div className="absolute -inset-1 bg-gradient-to-br from-amber-600 to-amber-300 rounded-full blur group-hover:-inset-2 transition-all" />

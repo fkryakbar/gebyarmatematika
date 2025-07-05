@@ -24,8 +24,13 @@ export default function Daftar() {
                             <h1 className='lg:text-7xl text-5xl font-bold mt-2 text-white'>Pendaftaran Gebyar Matematika</h1>
                         </div>
                         <div className="flex gap-6 mt-5 mx-auto">
-                            <Link href={'https://bit.ly/BukuPedomanGM2024'} target="_blank" className="bg-[#11b6e6] p-2 text-white rounded-lg font-bold text-xl flex items-center hover:bg-blue-900 transition-all active:scale-105 drop-shadow text-center">
+                            <Link href={'https://bit.ly/BukuPedomanGM2025'} target="_blank" className="bg-[#11b6e6] p-2 text-white rounded-lg font-bold text-xl flex items-center hover:bg-blue-900 transition-all active:scale-105 drop-shadow text-center">
                                 Buku Panduan Gebyar Matematika
+                            </Link>
+                        </div>
+                        <div className="flex gap-6 mt-5 mx-auto">
+                            <Link href={'https://bit.ly/BukuPanduanEsai2025'} target="_blank" className="bg-[#11b6e6] p-2 text-white rounded-lg font-bold text-xl flex items-center hover:bg-blue-900 transition-all active:scale-105 drop-shadow text-center">
+                                Buku Panduan Esai
                             </Link>
                         </div>
                     </motion.div>
@@ -66,7 +71,7 @@ export default function Daftar() {
                         <h4 className="text-center text-[#005AAC] font-semibold text-xl">Cerdas Cermat Matematika</h4>
                         <p className="text-center text-sm font-semibold">Beregu 3 Orang</p>
                         <div className="flex justify-center my-2">
-                            <Link href={'https://bit.ly/Pendaftaran-CerdasCermatMatematika_GM2024'} target="_blank" className="btn btn-sm bg-green-400 text-white hover:bg-green-800">Daftar CCM</Link>
+                            <Link href={'https://bit.ly/PendaftaranCCMGM2025'} target="_blank" className="btn btn-sm bg-green-400 text-white hover:bg-green-800">Daftar CCM</Link>
                         </div>
                         <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"></div>
                     </div>
@@ -79,7 +84,20 @@ export default function Daftar() {
                         <h4 className="text-center text-[#005AAC] font-semibold text-xl">Kuis Matematika</h4>
                         <p className="text-center text-sm font-semibold">Individu</p>
                         <div className="flex justify-center my-2">
-                            <Link href={'https://bit.ly/Pendaftaran-KuisMatematika_GM2024'} target="_blank" className="btn btn-sm bg-amber-400 text-white hover:bg-amber-800">Daftar KM</Link>
+                            <Link href={'https://bit.ly/PendaftaranKuisGM2025'} target="_blank" className="btn btn-sm bg-amber-400 text-white hover:bg-amber-800">Daftar KM</Link>
+                        </div>
+                        <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
+                    </div>
+                    <div className="basis-1/2 p-5 rounded-lg bg-white drop-shadow-md cursor-pointer transition-all hover:bg-blue-100">
+                        <div className="flex gap-3 justify-center mb-2">
+                            <div className="w-5 h-5 rounded-full bg-blue-700"></div>
+                            <div className="w-5 h-5 rounded-full bg-amber-400"></div>
+                            <div className="w-5 h-5 rounded-full bg-green-400"></div>
+                        </div>
+                        <h4 className="text-center text-[#005AAC] font-semibold text-xl">Esai</h4>
+                        <p className="text-center text-sm font-semibold">Individu</p>
+                        <div className="flex justify-center my-2">
+                            <Link href={'https://bit.ly/PendaftaranEsaiGM2025'} target="_blank" className="btn btn-sm bg-blue-400 text-white hover:bg-blue-800">Daftar Esai</Link>
                         </div>
                         <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                     </div>

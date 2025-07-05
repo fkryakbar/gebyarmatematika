@@ -26,7 +26,7 @@ export default function Navbar() {
                         <Link href={'/'} className="flex gap-2 items-center hover:bg-[#005AAC] transition-all p-2 rounded">
                             <Image src={'/GM.png'} width={100} height={100} alt="main logo" className="lg:w-14 w-10" />
                             <div className="text-white">
-                                <p className="font-bold lg:text-base text-sm">Gebyar Matematika 2024</p>
+                                <p className="font-bold lg:text-base text-sm">Gebyar Matematika 2025</p>
                                 <p className="lg:text-sm text-xs">HIMAPTIKA FKIP ULM</p>
                             </div>
                         </Link>
