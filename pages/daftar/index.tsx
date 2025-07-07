@@ -106,7 +106,7 @@ export default function Daftar() {
             <section className="lg:w-[80%] w-full p-2 mx-auto pt-10">
                 <div>
                     <h2 className="text-center text-[#005AAC] font-semibold text-2xl">
-                        Persyaratan Peserta
+                        Persyaratan Peserta CCM & KUIS
                     </h2>
                     <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
                 </div>
@@ -121,7 +121,7 @@ export default function Daftar() {
                             Peserta merupakan siswa/i SD, SMP dan SMA sederajat.
                         </li>
                         <li>
-                            Peserta masih terdaftar sebagai siswa/i aktif pada saat Gebyar Matematika 2023 berlangsung
+                            Peserta masih terdaftar sebagai siswa/i aktif pada saat Gebyar Matematika 2025 berlangsung
                         </li>
                         <li>
                             Peserta merupakan perwakilan sekolah atau mendaftar secara individu
@@ -142,6 +142,84 @@ export default function Daftar() {
                             Bagi peserta yang melanggar persyaratan peserta maka akan didiskualifikasi
                         </li>
 
+                    </ul>
+                </div>
+            </section>
+            <section className="lg:w-[80%] w-full p-2 mx-auto pt-10">
+                <div>
+                    <h2 className="text-center text-[#005AAC] font-semibold text-2xl">
+                        Persyaratan Peserta Esai
+                    </h2>
+                    <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
+                </div>
+                <div className="lg:w-[50%] w-full mt-5 mx-auto p-5 rounded-lg bg-white drop-shadow-md cursor-pointer transition-all hover:bg-blue-100">
+                    <div className="flex gap-3 justify-center mb-2">
+                        <div className="w-5 h-5 rounded-full bg-blue-700"></div>
+                        <div className="w-5 h-5 rounded-full bg-amber-400"></div>
+                        <div className="w-5 h-5 rounded-full bg-green-400"></div>
+                    </div>
+                    <ul className="list-disc lg:px-10 px-5 mt-5 lg:text-base text-sm">
+                        <li>
+                            Peserta beranggotakan maksimal 2 orang.
+                        </li>
+                        <li>
+                            Peserta merupakan mahasiswa aktif S1 Pendidikan Matematika yang dibuktikan dengan scan KTM                        </li>
+                        <li>
+                            Setiap peserta hanya diperbolehkan mengirimkan satu karya esai
+                        </li>
+                        <li>
+                            Naskah yang dikirimkan adalah karya asli (orisinal) yang belum pernah dipublikasikan dan tidak sedang diikutsertakan dalam lomba lain
+                        </li>
+                        <li>
+                            Melakukan pendaftaran dan pembayaran melalui link yang tersedia
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section className="lg:w-[80%] w-full p-2 mx-auto pt-10">
+                <div>
+                    <h2 className="text-center text-[#005AAC] font-semibold text-2xl">
+                        Alur Pendaftaran dan Pengumpulan Hasil Karya ESAI
+                    </h2>
+                    <div className="rounded-full mx-auto w-[10%] h-1 bg-[#005AAC] mt-2"> </div>
+                </div>
+                <div className="lg:w-[50%] w-full mt-5 mx-auto p-5 rounded-lg bg-white drop-shadow-md cursor-pointer transition-all hover:bg-blue-100">
+                    <div className="flex gap-3 justify-center mb-2">
+                        <div className="w-5 h-5 rounded-full bg-blue-700"></div>
+                        <div className="w-5 h-5 rounded-full bg-amber-400"></div>
+                        <div className="w-5 h-5 rounded-full bg-green-400"></div>
+                    </div>
+                    <ul className="list-disc lg:px-10 px-5 mt-5 lg:text-base text-sm">
+                        <li>
+                            Pendaftaran dibuka dan dapat diakses secara daring sejak tanggal 01 Juli 2025 - 24 Juli 2025
+                        </li>
+                        <li>
+                            Peserta dapat melunasi Pembayaran dengan Mentransfer uang Pendaftaran melalui:
+                            <br />
+                            Bank : Bank Nasional Indonesia (BNI)
+                            <br />
+                            No. Rekening : 0568609437
+                            <br />
+                            Atas Nama : Nur Fitria Khanani
+                        </li>
+                        <li>
+                            Konfirmasi bukti pelunasan melalui nomor: (0895703423016 a.n Nur Fitria Khanani)
+                        </li>
+                        <li>
+                            Mendaftar dengan mengisi formulir pendaftaran melalui <Link className="text-blue-500 underline hover:text-blue-800" href={'#jenis'} scroll={false}>link pendaftaran</Link> Esai
+                        </li>
+                        <li>
+                            Mengunggah bukti pelunasan pembayaran
+                        </li>
+                        <li>
+                            Mengunggah pas foto formal ukuran 3 x 4
+                        </li>
+                        <li>
+                            Mengunggah KTM untuk mahasiswa S-1
+                        </li>
+                        <li>
+                            Mengunggah file hasil karya sebagai bentuk pengumpulan hasil karya.
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -170,7 +248,7 @@ export default function Daftar() {
                                             Bank
                                         </td>
                                         <td>
-                                            : Mandiri
+                                            : BNI
                                         </td>
                                     </tr>
                                     <tr>
@@ -178,7 +256,7 @@ export default function Daftar() {
                                             No. Rekening
                                         </td>
                                         <td>
-                                            : 310018994486
+                                            : 0568609437
                                         </td>
                                     </tr>
                                     <tr>
@@ -186,7 +264,7 @@ export default function Daftar() {
                                             Atas Nama
                                         </td>
                                         <td>
-                                            : Heni Siti Angreini
+                                            :  Nur Fitria Khanani
                                         </td>
                                     </tr>
                                 </tbody>
@@ -204,6 +282,7 @@ export default function Daftar() {
                     </ul>
                 </div>
             </section>
+
             <section className="lg:w-[80%] w-full p-2 mx-auto pt-10 pb-10">
                 <div>
                     <h2 className="text-center text-[#005AAC] font-semibold text-2xl">
@@ -226,7 +305,7 @@ export default function Daftar() {
                                 Nama Penyetor # Nama Sekolah # CCM # Gelombang # Tanggal dan Waktu Pengiriman # Nama Lengkap Peserta # Nominal Pengiriman
                             </p>
                             <p className="mt-3">
-                                Contoh : Zuraida Latifah # SMA 1 Lambung Mangkurat # CCM # Gelombang 2 # 20 Agustus 2023 10.00 # 1. Isnani Maulida 2. Tri Muthoharoh 3. Nina Mardani # Rp170.000
+                                Contoh : Muhammad Nasrullah # SMA 1 Lambung Mangkurat # CCM # Gelombang 2 # 20 Juli 2025 10.00 # 1. Najwa Dhiya Ulhaq 2. Siti Rahmah 3. Alya Afifah # Rp170.000
                             </p>
                         </div>
                         <li className="font-semibold">
@@ -238,14 +317,14 @@ export default function Daftar() {
                                 Nama Penyetor # Nama Sekolah # Kuis # Gelombang # Tanggal dan Waktu Pengiriman # Nama Lengkap Peserta # Nominal Pengiriman
                             </p>
                             <p className="mt-3">
-                                Contoh : Muamar Nasrullah Jayatri # SMA 1 Lambung Mangkurat # Kuis # Gelombang 2 # 20 Agustus 2023 10.00  # Tri Muthoharoh #Rp90.000
+                                Contoh : muhammad Nasrullah # SMA 1 Lambung Mangkurat # Kuis # Gelombang 2 # 20 Juli 2025 10.00  # Siti Rahmah #Rp95.000
                             </p>
                             <h5 className="font-semibold mt-4">Kolektif</h5>
                             <p>
                                 Nama Penyetor # Nama Sekolah # Kuis # Gelombang # Tanggal dan Waktu Pengiriman # Jumlah Delegasi # Nama Lengkap Peserta # Nominal Pengiriman
                             </p>
                             <p className="mt-3">
-                                Contoh : Isnani Maulida # SMA 1 Lambung Mangkurat # Kuis # Gelombang 2 # 20 Agustus 2023 10.00 # 5 orang # 1. Nina Mardani 2. Tri Muthoharoh 3. Zuraida Latifah 4. Muamar Nasrullah Jayatri 5. Fitry Hayuni Gimelia # Rp450.000
+                                Contoh : Najwa Dhiya Ulhaq # SMA 1 Lambung Mangkurat # Kuis # Gelombang 1 # 10  Juli 2025 10.00 # 5 orang # 1. Fadiyah Septi  2.  Siti Rahmah 3. Alya Afifah 4. Muhammad Nasrullah 5. Nurin Nadhiroh # Rp425.000
                             </p>
                         </div>
                         <li className="font-semibold">
@@ -256,10 +335,10 @@ export default function Daftar() {
                                 Peserta diharapkan mengisi formulir pendaftaran dengan lengkap dan benar sesuai yang tertera pada link formulir pendaftaran.
                             </li>
                             <li>
-                                Peserta Menunggu WhatsApp dari Panitia maksimal 3 x 24 jam sejak mengisi formulir pendaftaran
+                                Peserta Menunggu WhatsApp dari Panitia maksimal 2 x 24 jam sejak mengisi formulir pendaftaran
                             </li>
                             <li>
-                                Setelah mendapat WhatsApp berupa kartu peserta, maka peserta secara resmi terdaftar sebagai peserta lomba Gebyar Matematika 2023.
+                                Setelah mendapat WhatsApp berupa kartu peserta, maka peserta secara resmi terdaftar sebagai peserta lomba Gebyar Matematika 2025.
                             </li>
                         </ul>
                     </ul>

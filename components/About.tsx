@@ -46,8 +46,7 @@ export default function About() {
                                 <b>Gebyar Matematika</b> merupakan ajang kompetisi matematika yang diadakan oleh Himpunan Mahasiswa Pendidikan Matematika Fakultas Keguruan dan Ilmu Pendidikan Universitas Lambung Mangkurat.
                             </p>
                             <p className="mt-3">
-                                Tujuan dari penyelenggaraan <b>Gebyar Matematika</b> adalah untuk meningkatkan kemampuan akademik dan menggali potensi diri siswa di bidang matematika. Diharapkan, kegiatan ini dapat menjadi motivasi bagi siswa-siswi untuk lebih berprestasi dalam studi matematika dan merangsang minat mereka dalam mengeksplorasi dunia matematika secara lebih mendalam.
-                            </p>
+                                Tujuan dari penyelenggaraan <b>Gebyar Matematika</b> adalah untuk meningkatkan kemampuan akademik serta menggali potensi diri peserta di bidang matematika. Melalui berbagai aktivitas yang edukatif dan komunikatif, kegiatan ini diharapkan dapat memotivasi siswa-siswi untuk lebih berprestasi dan menumbuhkan minat mereka dalam mengeksplorasi dunia matematika secara lebih mendalam. Selain itu, kegiatan ini juga menjadi sarana untuk mengembangkan wawasan, pola pikir, dan kemampuan berpikir kritis peserta, baik di jenjang sekolah maupun perguruan tinggi, melalui bentuk kegiatan yang dirancang sesuai dengan karakteristik dan tingkat perkembangan masing-masing</p>
                         </div>
                         <Illustration className="absolute -bottom-[27px] right-[25%] lg:hidden block" />
                         <div className="h-[90px] lg:hidden block"></div>
