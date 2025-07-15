@@ -41,28 +41,43 @@ export default function Hero() {
                         className="basis-1/2 mt-10">
                         <Splide aria-label="My Favorite Images" className="w-[80%] mx-auto drop-shadow-lg rounded-lg overflow-clip">
                             <SplideSlide>
-                                <Image src={'/dokumentasi/3.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/1.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={'/dokumentasi/4.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/2.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={'/dokumentasi/5.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/3.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={'/dokumentasi/6.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/4.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={'/dokumentasi/7.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/5.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={'/dokumentasi/8.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/6.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={'/dokumentasi/9.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/7.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                             <SplideSlide>
-                                <Image src={'/dokumentasi/10.JPG'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                                <Image src={'/dokumentasi/8.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                            </SplideSlide>
+                            <SplideSlide>
+                                <Image src={'/dokumentasi/9.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                            </SplideSlide>
+                            <SplideSlide>
+                                <Image src={'/dokumentasi/10.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                            </SplideSlide>
+                            <SplideSlide>
+                                <Image src={'/dokumentasi/11.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                            </SplideSlide>
+                            <SplideSlide>
+                                <Image src={'/dokumentasi/12.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
+                            </SplideSlide>
+                            <SplideSlide>
+                                <Image src={'/dokumentasi/13.webp'} alt="dokumentasi" width={500} height={500} className="w-full rounded-lg" />
                             </SplideSlide>
                         </Splide>
                     </motion.div>
