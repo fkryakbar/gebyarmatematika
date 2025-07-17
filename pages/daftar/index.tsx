@@ -215,7 +215,7 @@ export default function Daftar() {
                             Mengunggah pas foto formal ukuran 3 x 4
                         </li>
                         <li>
-                            Melakukan konfirmasi pendaftaran melalui nomor: (083142437990 a.n Muhammad Nasrullah) dengan format Nama Ketua Tim_Asal Universitas_Jumlah Anggota
+                            Melakukan konfirmasi pendaftaran melalui nomor: 082197064679 (Najwa Dhiya Ulhaq) dengan format Nama Ketua Tim_Asal Universitas_Jumlah Anggota
                         </li>
                         <li>
                             Bergabung ke grup WhatsApp setelah melakukan konfirmasi

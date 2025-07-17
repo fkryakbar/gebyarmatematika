@@ -29,7 +29,7 @@ export default function Contact() {
                                     <h3 className="font-bold text-[#005AAC] text-2xl">
                                         Kuis Matematika
                                     </h3>
-                                    <p className="font-bold">085124427963 (Muhammad Nasrullah)</p>
+                                    <p className="font-bold">082197064679 (Najwa Dhiya Ulhaq)</p>
 
                                 </div>
                             </div>
